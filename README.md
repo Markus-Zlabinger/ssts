@@ -1,4 +1,4 @@
-## Evaluation and Implementation of semantic short-text similarity (SSTS) methods.
+## Implementation of semantic short-text similarity (SSTS) methods
 This repository contains the code to reproduce our results on unsupervised semantic short-text similarity (SSTS) methods. You will find 
 implementations of following SSTS methods:
 

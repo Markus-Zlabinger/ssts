@@ -1,3 +1,4 @@
+## Evaluation and Implementation of semantic short-text similarity (SSTS) methods.
 This repository contains the code to reproduce our results on unsupervised semantic short-text similarity (SSTS) methods. You will find 
 implementations of following SSTS methods:
 
@@ -17,12 +18,12 @@ implementations of following SSTS methods:
 
 ## Experiment on Biomedical Sentence-2-Sentence Similarity
 
-##### Prerequisites
-Before running this experiment, you go through following steps:
+#### Prerequisites
+Before running this experiment, go through following steps:
 * Populate the *config.py* with your specific configuration. This includes, path to the benchmark dataset MedSTS (which you need to request by the author) and the paths to pretrained models. Note that the benchmark corpus BIOSSES is publicly available at https://tabilab.cmpe.boun.edu.tr/BIOSSES/DataSet.html. Make sure to cite the corresponding papers when using either dataset for your research.
 * Cached results of our experiments are available in the folder *data/cached_results*. If you want to produce results from scratch, delete the *cached_results* folder.
 
-##### Results
+#### Results
 Run the experiments using the *evaluation.py*. You should get results for two biomedical sentence2sentence similarity corpora: BIOSSES and MedSTS (also referred to as ClinicalSTS). The table should look like this:
 
 | Method            | Model         | Preprocessing          |   biosses_pear |   medsts_all_pear |   AVG |
@@ -47,6 +48,8 @@ Run the experiments using the *evaluation.py*. You should get results for two bi
 | weightedw2v       | BioWord2Vec   | tokenizelower          |           0.73 |              0.75 |  0.74 |
 | weightedw2v       | BioWord2Vec   | tokenizelowerstopwords |           0.76 |              0.77 |  0.76 |
 
+## Contact Us
+If you have any further questions, open a new issue for this repository.
 
 ## Publication
 The code from this library is based on two of our papers. The first paper uses unsupervised SSTS methods to compute the similarity between biomedical sentences.

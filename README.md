@@ -56,7 +56,7 @@ The code from this library is based on two of our papers. The first paper uses u
 ```
 @inproceedings{zlabinger2020crowd,
   title={Effective Crowd-Annotation of Participants, Interventions, and Outcomes in the Text of Clinical Trial Reports},
-  author={Zlabinger, Markus and Sabou, Marta and Hofstätter, Sebastian and Hanbury, Allan},
+  author={Zlabinger, Markus and Sabou, Marta and Hofst\"{a}tter, Sebastian and Hanbury, Allan},
   booktitle={Conference on Empirical Methods in Natural Language Processing (EMNLP-Findings 2020)},
   year={2020},
 }

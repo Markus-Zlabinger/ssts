@@ -20,7 +20,7 @@ implementations of following SSTS methods:
 
 #### Prerequisites
 Before running this experiment, go through following steps:
-* Populate the *config.py* with your specific configuration. This includes, path to the benchmark dataset MedSTS (which you need to request by the author) and the paths to pretrained models. Note that the benchmark corpus BIOSSES is publicly available at https://tabilab.cmpe.boun.edu.tr/BIOSSES/DataSet.html. Make sure to cite the corresponding papers when using either dataset for your research.
+* Populate the *config.py* with your specific configuration. This includes, path to the benchmark dataset MedSTS (which you need to request from the author) and the paths to pretrained models. Note that the benchmark corpus BIOSSES is publicly available at https://tabilab.cmpe.boun.edu.tr/BIOSSES/DataSet.html. Make sure to cite the corresponding papers when using either dataset for your research.
 * Cached results of our experiments are available in the folder *data/cached_results*. If you want to produce results from scratch, delete the *cached_results* folder.
 
 #### Results
